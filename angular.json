@@ -98,6 +98,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://matheusalvarenga.github.io/system_typing_game_angular/",
+            "name": "Matheus Alvarenga"
+          }
         }
       }
     }
